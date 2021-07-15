@@ -3,7 +3,7 @@ const Subscription = require("egg").Subscription;
 class FetchQsbk extends Subscription {
   static get schedule() {
     return {
-      interval: "4h",
+      interval: "12h",
       type: "all",
       immediate: true,
     };
